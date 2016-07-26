@@ -35,15 +35,19 @@ function buildHomePage(files) {
 	var strs = ['<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Sudo Mockups</title><link rel="stylesheet" type="text/css" href="./index.css" media="screen"></head><body>'];
 
 	var items = files.map(function(file) {
-		var name=file.replace('./','').replace('/index.html','');
+		var name = file.replace('./', '').replace('/index.html', '');
 
 		var item = '<a href="' + file + '">' + name + '</a>';
 		return item;
 	});
 	strs = strs.concat(items);
 
+	var lastUpdate = new Date().toString();
+
+	strs.push('<p>' + lastUpdate + '</p>');
+
 	strs.push('</body></html>');
 	var html = strs.join('');
 	fs.writeFileSync('./index.html', html);
-
+	console.log(lastUpdate);
 }

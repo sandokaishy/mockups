@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>fb_msg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0.219391985%" x2="100%" y2="0.219391985%" id="linearGradient-1">
+            <stop stop-color="#077C92" offset="0%"></stop>
+            <stop stop-color="#101740" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="160725" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sharing-icons" transform="translate(-50.000000, -5.000000)">
+            <g id="referral-sharing-kit">
+                <g id="fb_msg" transform="translate(45.000000, 0.000000)">
+                    <rect id="Rectangle-2-Copy" x="0" y="0" width="31" height="31" rx="1"></rect>
+                    <path d="M9.22096789,21.9046074 C6.95076559,20.2136281 5.49882043,17.6253988 5.49882043,14.7243889 C5.49882043,9.6298996 9.97650104,5.5 15.5,5.5 C21.023499,5.5 25.5011796,9.6298996 25.5011796,14.7243889 C25.5011796,19.8188783 21.023499,23.9487779 15.5,23.9487779 C14.5045257,23.9487779 13.5430208,23.8146339 12.6355751,23.5648755 L9.26614467,25.4552818 L9.22096789,21.9046074 Z M8.38133776,18.0158603 L14.3801139,11.9310561 L17.1292635,14.8233079 L22.5522558,12.0302685 L16.8231052,18.0782287 L13.7595045,15.2454599 L8.38133776,18.0158603 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -32,7 +32,7 @@ function findIndexFile(path) {
 }
 
 function buildHomePage(files) {
-	var strs = ['<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Sudo Mockups</title></head><body>'];
+	var strs = ['<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Sudo Mockups</title><link rel="stylesheet" type="text/css" href="./index.css" media="screen"></head><body>'];
 
 	var items = files.map(function(file) {
 		var name=file.replace('./','').replace('/index.html','');

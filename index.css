@@ -1,4 +1,21 @@
 a {
 	display: block;
-	margin: auto auto;
+	text-align: center;
+	width: 30%;
+	margin: 7px auto;
+	padding: 21px;
+	font-size: 24px;
+}
+
+a:first-child {
+	margin-top: 56px;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #3F3F3F;
+}
+
+a:hover {
+	background-color: #F3F3F3;
 }

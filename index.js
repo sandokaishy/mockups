@@ -37,7 +37,7 @@ function buildHomePage(files) {
 	var items = files.map(function(file) {
 		var name=file.replace('./','').replace('/index.html','');
 
-		var item = '<a href="' + file + '">' + name + '</a><br/>';
+		var item = '<a href="' + file + '">' + name + '</a>';
 		return item;
 	});
 	strs = strs.concat(items);

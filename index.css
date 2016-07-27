@@ -19,3 +19,7 @@ a, a:visited {
 a:hover {
 	background-color: #F3F3F3;
 }
+
+p {
+	text-align: center;
+}

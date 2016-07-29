@@ -1,0 +1,19 @@
+{
+  "name": "mockups",
+  "version": "1.0.0",
+  "description": "test for Sketch measure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandokaishy/mockups.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandokaishy/mockups/issues"
+  },
+  "homepage": "https://github.com/sandokaishy/mockups#readme"
+}
